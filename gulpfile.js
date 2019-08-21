@@ -61,5 +61,5 @@ gulp.task('pre-release-babel', () =>
 
 gulp.task('build', () =>
     gulp.src('style.css', 'img/*', 'index.js')
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('build'))
 );
